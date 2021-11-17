@@ -21,7 +21,8 @@ let package = Package(
             targets: [
                 "GoogleMaps",
                 "GoogleMapsBase",
-                "GoogleMapsCore"
+                "GoogleMapsCore",
+                "GooglePlaces"
             ]
         ),
         .library(
