@@ -17,15 +17,6 @@ let package = Package(
             ]
         ),
         .library(
-            name: "GoogleMaps",
-            targets: [
-                "GoogleMaps",
-                "GoogleMapsBase",
-                "GoogleMapsCore",
-                "GooglePlaces"
-            ]
-        ),
-        .library(
             name: "GoogleMapsM4B",
             targets: [
                 "GoogleMapsM4B"
@@ -34,8 +25,17 @@ let package = Package(
         .library(
             name: "GooglePlaces",
             targets: [
+                "GooglePlaces"
+            ]
+        ),
+        .library(
+            name: "GoogleMaps",
+            targets: [
+                "GoogleMaps",
+                "GoogleMapsBase",
+                "GoogleMapsCore",
                 "GooglePlaces",
-                "GoogleMapsBase"
+                "GoogleMapsM4B"
             ]
         )
     ],
